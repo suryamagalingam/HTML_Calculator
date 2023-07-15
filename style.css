@@ -1,0 +1,39 @@
+
+body{
+    border : "";
+    background-color: whitesmoke;
+
+}
+    .calculator {
+      width: 220px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      background-color: black;
+      position: relative;
+      top:5em;
+    }
+    .box{
+      background-color: aquamarine;
+    }
+    #display{
+      background-color:gray;
+      color: black;
+      text-align: end;
+      height: 30px;;
+    }
+    .calculator input[type="text"] {
+      width: 94%;
+      margin-bottom: 10px;
+      justify-content: space-evenly;
+    }
+    .calculator input[type="button"] {
+      width: 40px;
+      padding: 5px;
+      margin: 5px;
+      background-color: grey;
+      justify-content: space-evenly;
+    }
+    .lastrow input[type="button"]{
+      width:94px;
+      justify-content: space-evenly;
+    }
